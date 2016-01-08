@@ -30,12 +30,12 @@ $(document).ready(function() {
 
   socket.on('userJoined', function(data){
     console.log(data);
-    $('#room').append(data.name + ' has joined.');
+    $('#room').append('<br>' + data.name + ' has joined.');
   });
 
   socket.on('userLeft', function(data){
     console.log(data);
-    $('#room').append(data.name + ' has left.');
+    $('#room').append('<br>' + data.name + ' has left.');
   });
 
 });
