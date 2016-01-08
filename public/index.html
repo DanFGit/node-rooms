@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <form class="section" id="loginForm" action="">
+      <input type="text" id="username" name="username" autocomplete="off" placeholder="Display Name" required /><br>
+      <input type="text" id="roomid" name="roomid" autocomplete="off" placeholder="Room ID" required /><br>
+      <input type="submit" id="submit">
+    </form>
+    <div class="section" id="error" style="display: none;"></div>
+    <div class="section" id="roomname" style="display: none;"></div>
+    <div class="section" id="room" style="display: none;"></div>
+
+    <script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/client.js"></script>
+  </body>
+</html>

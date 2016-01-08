@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: 10px sans-serif;
+}
+
+html { background: #EEEEEE; }
+
+form#loginForm {
+    height: 200px;
+    margin: 30px auto 0;
+    padding: 51px;
+}
+
+form#loginForm input[type="submit"] {
+    background: none;
+    border: 2px solid #B52641;
+    padding: 10px 54px;
+    font-weight: bold;
+    color: inherit;
+    margin: 1px 0;
+}
+
+form#loginForm input[type="text"] {
+    border: none;
+    padding: 9px;
+    width: 146px;
+    background: #B52641;
+    margin: 1px 0;
+    text-align: center;
+    color: inherit;
+}
+
+form#loginForm ::-webkit-input-placeholder {
+    color: #DDDDDD;
+}
+
+div#error {
+  padding: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.section {
+  text-align: center;
+  background: #FF3C60;
+  color: #FFFFFF;
+}
+
+div#roomname {
+  margin: 30px 0 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div#room {
+  padding: 10px;
+  margin-bottom: 30px;
+}
